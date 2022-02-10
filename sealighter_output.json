@@ -1,0 +1,740 @@
+[
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3006,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  11020,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  14044,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "InterfaceIndex":  0,
+                           "IsAsyncQuery":  0,
+                           "IsNetworkQuery":  0,
+                           "NetworkQueryIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  144255926638084096,
+                           "QueryType":  1,
+                           "ServerList":  ""
+                       },
+        "property_types":  {
+                               "InterfaceIndex":  "UINT32",
+                               "IsAsyncQuery":  "UINT32",
+                               "IsNetworkQuery":  "UINT32",
+                               "NetworkQueryIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32",
+                               "ServerList":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3009,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "AdapterName":  "Ethernet",
+                           "ClientPID":  11020,
+                           "DNSServerAddress":  "8.8.8.8",
+                           "InterfaceCount":  1,
+                           "IsParallelNetworkQuery":  1,
+                           "LocalAddress":  "fe80::c0c4:e146:2588:549c;172.30.61.87",
+                           "NetworkIndex":  0,
+                           "QueryName":  "dns.google"
+                       },
+        "property_types":  {
+                               "AdapterName":  "STRINGW",
+                               "ClientPID":  "UINT32",
+                               "DNSServerAddress":  "STRINGW",
+                               "InterfaceCount":  "UINT32",
+                               "IsParallelNetworkQuery":  "UINT32",
+                               "LocalAddress":  "STRINGW",
+                               "NetworkIndex":  "UINT32",
+                               "QueryName":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3016,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "InterfaceIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  146507726451769344,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "InterfaceIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3018,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  146507726451769344,
+                           "QueryResults":  "",
+                           "QueryType":  1,
+                           "Status":  9701
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3019,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "InterfaceIndex":  0,
+                           "NetworkIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "InterfaceIndex":  "UINT32",
+                               "NetworkIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3010,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "DnsServerIpAddress":  "8.8.8.8",
+                           "QueryName":  "dns.google",
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "DnsServerIpAddress":  "STRINGW",
+                               "QueryName":  "STRINGW",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3011,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "DnsServerIpAddress":  "8.8.8.8",
+                           "QueryName":  "dns.google",
+                           "QueryType":  1,
+                           "ResponseStatus":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "DnsServerIpAddress":  "STRINGW",
+                               "QueryName":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "ResponseStatus":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3020,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15340,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  11020,
+                           "InterfaceIndex":  0,
+                           "NetworkIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryType":  1,
+                           "Status":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "InterfaceIndex":  "UINT32",
+                               "NetworkIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3008,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  11020,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  14044,
+                       "timestamp":  "2022-02-10 19:49:10Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  146507726451769344,
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryStatus":  0,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryStatus":  "UINT32",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3018,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  5292,
+                           "QueryName":  "8.8.8.8.in-addr.arpa",
+                           "QueryOptions":  2251799813718032,
+                           "QueryResults":  "type: 12 dns.google;",
+                           "QueryType":  12,
+                           "Status":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{100EE85C-B4E3-4D20-B307-7C8EFBA7871A}",
+                       "event_flags":  576,
+                       "event_id":  3008,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  5292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  5036,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "QueryName":  "8.8.8.8.in-addr.arpa",
+                           "QueryOptions":  32784,
+                           "QueryResults":  "type: 12 dns.google;",
+                           "QueryStatus":  0,
+                           "QueryType":  12
+                       },
+        "property_types":  {
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryStatus":  "UINT32",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{100EE85C-B4E3-4D20-B307-7C8EFBA7871A}",
+                       "event_flags":  576,
+                       "event_id":  3006,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  5292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  5036,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "InterfaceIndex":  0,
+                           "IsAsyncQuery":  0,
+                           "IsNetworkQuery":  0,
+                           "NetworkQueryIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  32784,
+                           "QueryType":  1,
+                           "ServerList":  ""
+                       },
+        "property_types":  {
+                               "InterfaceIndex":  "UINT32",
+                               "IsAsyncQuery":  "UINT32",
+                               "IsNetworkQuery":  "UINT32",
+                               "NetworkQueryIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32",
+                               "ServerList":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3009,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "AdapterName":  "Ethernet",
+                           "ClientPID":  5292,
+                           "DNSServerAddress":  "8.8.8.8",
+                           "InterfaceCount":  1,
+                           "IsParallelNetworkQuery":  1,
+                           "LocalAddress":  "fe80::c0c4:e146:2588:549c;172.30.61.87",
+                           "NetworkIndex":  0,
+                           "QueryName":  "dns.google"
+                       },
+        "property_types":  {
+                               "AdapterName":  "STRINGW",
+                               "ClientPID":  "UINT32",
+                               "DNSServerAddress":  "STRINGW",
+                               "InterfaceCount":  "UINT32",
+                               "IsParallelNetworkQuery":  "UINT32",
+                               "LocalAddress":  "STRINGW",
+                               "NetworkIndex":  "UINT32",
+                               "QueryName":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3016,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  5292,
+                           "InterfaceIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  2251799813718032,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "InterfaceIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3018,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  5292,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  2251799813718032,
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryType":  1,
+                           "Status":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{100EE85C-B4E3-4D20-B307-7C8EFBA7871A}",
+                       "event_flags":  576,
+                       "event_id":  3008,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  5292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  5036,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  32784,
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryStatus":  0,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryStatus":  "UINT32",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3018,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  5292,
+                           "QueryName":  "4.4.8.8.in-addr.arpa",
+                           "QueryOptions":  2251799813718032,
+                           "QueryResults":  "type: 12 dns.google;",
+                           "QueryType":  12,
+                           "Status":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{100EE85C-B4E3-4D20-B307-7C8EFBA7871A}",
+                       "event_flags":  576,
+                       "event_id":  3008,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  5292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  5036,
+                       "timestamp":  "2022-02-10 19:49:27Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "QueryName":  "4.4.8.8.in-addr.arpa",
+                           "QueryOptions":  32784,
+                           "QueryResults":  "type: 12 dns.google;",
+                           "QueryStatus":  0,
+                           "QueryType":  12
+                       },
+        "property_types":  {
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryStatus":  "UINT32",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3006,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  10292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15448,
+                       "timestamp":  "2022-02-10 19:49:38Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "InterfaceIndex":  0,
+                           "IsAsyncQuery":  0,
+                           "IsNetworkQuery":  0,
+                           "NetworkQueryIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  16,
+                           "QueryType":  1,
+                           "ServerList":  ""
+                       },
+        "property_types":  {
+                               "InterfaceIndex":  "UINT32",
+                               "IsAsyncQuery":  "UINT32",
+                               "IsNetworkQuery":  "UINT32",
+                               "NetworkQueryIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32",
+                               "ServerList":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3009,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:38Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "AdapterName":  "Ethernet",
+                           "ClientPID":  10292,
+                           "DNSServerAddress":  "8.8.8.8",
+                           "InterfaceCount":  1,
+                           "IsParallelNetworkQuery":  1,
+                           "LocalAddress":  "fe80::c0c4:e146:2588:549c;172.30.61.87",
+                           "NetworkIndex":  0,
+                           "QueryName":  "dns.google"
+                       },
+        "property_types":  {
+                               "AdapterName":  "STRINGW",
+                               "ClientPID":  "UINT32",
+                               "DNSServerAddress":  "STRINGW",
+                               "InterfaceCount":  "UINT32",
+                               "IsParallelNetworkQuery":  "UINT32",
+                               "LocalAddress":  "STRINGW",
+                               "NetworkIndex":  "UINT32",
+                               "QueryName":  "STRINGW"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3016,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:38Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  10292,
+                           "InterfaceIndex":  0,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  2251799813685264,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "InterfaceIndex":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryType":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3018,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  1,
+                       "process_id":  2336,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  8712,
+                       "timestamp":  "2022-02-10 19:49:38Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "ClientPID":  10292,
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  2251799813685264,
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryType":  1,
+                           "Status":  0
+                       },
+        "property_types":  {
+                               "ClientPID":  "UINT32",
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryType":  "UINT32",
+                               "Status":  "UINT32"
+                           }
+    },
+    {
+        "header":  {
+                       "activity_id":  "{00000000-0000-0000-0000-000000000000}",
+                       "event_flags":  576,
+                       "event_id":  3008,
+                       "event_name":  "",
+                       "event_opcode":  0,
+                       "event_version":  0,
+                       "process_id":  10292,
+                       "provider_name":  "Microsoft-Windows-DNS-Client",
+                       "task_name":  "nê©£",
+                       "thread_id":  15448,
+                       "timestamp":  "2022-02-10 19:49:38Z",
+                       "trace_name":  "dns_trace"
+                   },
+        "properties":  {
+                           "QueryName":  "dns.google",
+                           "QueryOptions":  16,
+                           "QueryResults":  "8.8.8.8;8.8.4.4;",
+                           "QueryStatus":  0,
+                           "QueryType":  1
+                       },
+        "property_types":  {
+                               "QueryName":  "STRINGW",
+                               "QueryOptions":  "UINT64",
+                               "QueryResults":  "STRINGW",
+                               "QueryStatus":  "UINT32",
+                               "QueryType":  "UINT32"
+                           }
+    }
+]
