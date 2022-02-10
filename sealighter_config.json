@@ -1,0 +1,13 @@
+{
+    "session_properties": {
+        "session_name": "My-DNS-Trace",
+        "output_format": "file",
+        "output_filename": "output.json"
+    },
+    "user_traces": [
+        {
+            "trace_name": "dns_trace",
+            "provider_name": "Microsoft-Windows-DNS-Client"
+        }
+    ]
+}
