@@ -1,0 +1,26 @@
+
+
+Message : Dns query:
+          RuleName: -
+          UtcTime: 2022-02-10 19:49:38.901
+          ProcessGuid: {3feb94c4-6c52-6205-2a1b-000000000e00}
+          ProcessId: 10292
+          QueryName: dns.google
+          QueryStatus: 0
+          QueryResults: 8.8.8.8;8.8.4.4;
+          Image: C:\Users\User\source\repos\dnsquery_w\dnsquery_w\bin\Debug\net6.0\dnsquery_w.exe
+          User: WINDEV2112EVAL\User
+
+Message : Dns query:
+          RuleName: -
+          UtcTime: 2022-02-10 19:49:27.633
+          ProcessGuid: {3feb94c4-6c47-6205-261b-000000000e00}
+          ProcessId: 5292
+          QueryName: dns.google
+          QueryStatus: 0
+          QueryResults: 8.8.8.8;8.8.4.4;
+          Image: C:\Windows\System32\wbem\WmiPrvSE.exe
+          User: NT AUTHORITY\NETWORK SERVICE
+
+
+
